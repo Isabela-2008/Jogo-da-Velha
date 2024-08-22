@@ -1,0 +1,40 @@
+Enunciado do Projeto: Jogo da Velha em Python
+Descrição
+Desenvolva uma aplicação de console para o jogo da velha (Tic-Tac-Toe) utilizando a linguagem Python. O jogo deve permitir que dois jogadores se revezem para preencher um tabuleiro 3x3. A partida continua até que um dos jogadores vença ou o tabuleiro esteja cheio, resultando em empate.
+
+Requisitos
+Mostrar Tabuleiro: Imprima o tabuleiro do jogo no console de forma visualmente clara após cada jogada.
+Verificar Vencedor: Implemente a lógica para verificar se há um vencedor após cada jogada.
+Jogar: Permita que os jogadores façam suas jogadas alternadamente. Solicite ao jogador atual que informe a linha e a coluna onde deseja colocar sua marca.
+Empate: Identifique e informe se o jogo terminou em empate.
+Funcionalidades
+Exibir o tabuleiro do jogo de forma formatada.
+Permitir que os jogadores façam suas jogadas.
+Verificar e anunciar o vencedor ou se o jogo terminou em empate.
+Informar se a posição escolhida está ocupada e solicitar uma nova jogada.
+Entregáveis
+Código-fonte Python do jogo (jogo_da_velha.py).
+Arquivo README.md com instruções sobre como executar o jogo.
+Arquivo .gitignore para ignorar arquivos desnecessários no controle de versão.
+
+# Jogo da Velha (Tic-Tac-Toe) em Python
+
+Este projeto é uma implementação simples do jogo da velha (ou tic-tac-toe) em Python. O jogo permite que dois jogadores se revezem para preencher um tabuleiro 3x3 com suas marcas ('X' e 'O') até que um deles vença ou o jogo termine em empate.
+
+## Funcionalidades
+
+- **Mostrar Tabuleiro**: Exibe o estado atual do tabuleiro no console.
+- **Verificar Vencedor**: Checa se o jogador atual venceu o jogo após cada jogada.
+- **Jogar**: Permite que dois jogadores façam suas jogadas alternadamente.
+
+## Como Executar
+
+1. Certifique-se de ter o Python 3.x instalado em seu sistema.
+2. Salve o código em um arquivo chamado `jogo_da_velha.py`.
+3. Abra um terminal ou prompt de comando.
+4. Navegue até o diretório onde o arquivo `jogo_da_velha.py` está localizado.
+5. Execute o comando `python jogo_da_velha.py` para iniciar o jogo.
+6. Siga as instruções na tela para jogar.
+
+## Exemplo de Saída
+
